@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --watch ./src/index.ts"
+  },
+  "dependencies": {
+    "@crudcup/db": "workspace:*",
+    "@elysiajs/cors": "0.5.2",
+    "@elysiajs/swagger": "0.5.2",
+    "elysia": "0.5.20",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.8",
+    "bun-types": "0.6.9"
+  }
+}
